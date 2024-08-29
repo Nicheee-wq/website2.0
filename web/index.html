@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="discribing my love for you in many launguages.">
+    <meta name="keywords" content="love songs, Tamil, Kannada, Telugu, Malayalam, Hindi">
+    <title>I love you Gummybear</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+        body {
+            background-image: url('file:///C:/Users/hp/Downloads/Mohith/web/images/eb7c95590212441f52478cdb90c4b957.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            min-height: 100vh;
+        }
+        .container {
+            margin: 50px auto;
+            width: 90%;
+            position: relative;
+        }
+        h1 {
+            font-size: 36px;
+            color: #6a0dad;
+            font-family: 'Dancing Script', cursive;
+            margin-bottom: 30px;
+            padding: 10px;
+        }
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px; /* Space between header and boxes */
+        }
+        .box-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1 1 150px; /* Flexbox for responsive sizing */
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            border: 6px solid #89CFF0;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+            animation: shake 5s infinite;
+            animation-delay: calc(0.5s * var(--i));
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid white;
+        }
+        .text-below {
+            color: #FF69B4;
+            font-size: 20px;
+            font-family: 'Great Vibes', cursive;
+            margin-top: 10px; /* Space between box and text */
+        }
+        @keyframes shake {
+            0% { transform: translate(0, 0); }
+            10% { transform: translate(-5px, -5px); }
+            20% { transform: translate(5px, -5px); }
+            30% { transform: translate(-5px, 5px); }
+            40% { transform: translate(5px, 5px); }
+            50% { transform: translate(-5px, 0); }
+            60% { transform: translate(5px, 0); }
+            70% { transform: translate(0, -5px); }
+            80% { transform: translate(0, 5px); }
+            90% { transform: translate(-5px, -5px); }
+            100% { transform: translate(0, 0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>If I could describe my love for you in songs, I would sing these in Tamil, Kannada, Telugu, Malayalam, and Hindi. You mean everything to me... I love you.</h1>
+        <div class="grid-container">
+            <div class="box-container" style="--i: 0;">
+                <div class="box">
+                    <a href="https://open.spotify.com/playlist/4t8PYL7ptLkHNJkFoqWfXz?si=bKXFUyFiSb6bqvyQY3shaA" target="_blank" aria-label="Tamil Love Song">
+                        <img src="file:///C:/Users/hp/Downloads/Mohith/web/images/tamil.jpeg" alt="Tamil Song">
+                    </a>
+                </div>
+                <p class="text-below">Love in Tamil...</p>
+            </div>
+            <div class="box-container" style="--i: 1;">
+                <div class="box">
+                    <a href="https://open.spotify.com/playlist/3qqts77gayH4EJRr2KXFyX?si=Qqo32eQFRkipIFnepRLPnA" target="_blank" aria-label="Kannada Love Song">
+                        <img src="file:///C:/Users/hp/Downloads/Mohith/web/images/kannada.jpeg.jpeg" alt="Kannada Song">
+                    </a>
+                </div>
+                <p class="text-below">Love in Kannada...</p>
+            </div>
+            <div class="box-container" style="--i: 2;">
+                <div class="box">
+                    <a href="https://open.spotify.com/playlist/3bhwHfdBnXBMgCLMQKU3q3?si=PKz_Li8TTqKMJnxedNhh0A" target="_blank" aria-label="Telugu Love Song">
+                        <img src="file:///C:/Users/hp/Downloads/Mohith/web/images/telgu.jpeg" alt="Telugu Song">
+                    </a>
+                </div>
+                <p class="text-below">Love in Telugu...</p>
+            </div>
+            <div class="box-container" style="--i: 3;">
+                <div class="box">
+                    <a href="https://open.spotify.com/playlist/72Iihu1DoJ6q7ymhLVXMgz?si=J_YJljXdRWSzXBNCxv-rnA" target="_blank" aria-label="Malayalam Love Song">
+                        <img src="file:///C:/Users/hp/Downloads/Mohith/web/images/malyalam.jpeg.jpeg" alt="Malayalam Song">
+                    </a>
+                </div>
+                <p class="text-below">Love in Malayalam...</p>
+            </div>
+            <div class="box-container" style="--i: 4;">
+                <div class="box">
+                    <a href="https://open.spotify.com/playlist/24QEYeMd9cno0oiCrtCa2p?si=GWmRvJGnT3q7KNSD9w5WQA" target="_blank" aria-label="Hindi Love Song">
+                        <img src="file:///C:/Users/hp/Downloads/Mohith/web/images/hindi.jpeg.jpeg" alt="Hindi Song">
+                    </a>
+                </div>
+                <p class="text-below">Love in Hindi...</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
